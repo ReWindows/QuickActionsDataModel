@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "target": "QuickActionsDataModel.dll",
+  "latest": "1559253120-39C65FDDE5F2F3D8C93B142703FE2551-1",
+  "builds": [
+    {
+      "key": "1559253120-39C65FDDE5F2F3D8C93B142703FE2551-1",
+      "timestamp": "1559253120",
+      "pdb_guid": "39C65FDDE5F2F3D8C93B142703FE2551",
+      "pdb_age": 1,
+      "machine": "0x8664",
+      "ir": "builds/1559253120-39C65FDDE5F2F3D8C93B142703FE2551-1/ir.json.gz",
+      "previous": null,
+      "diff_json": null,
+      "diff_markdown": null,
+      "summary": null
+    }
+  ],
+  "compression": "gzip"
+}

@@ -1,0 +1,846 @@
+//! Opaque handles for recovered C++ classes.
+#![allow(non_camel_case_types)]
+
+#[repr(C)]
+pub struct CActivatedEventArgsBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CActivatedEventArgsWithPrelaunchAndViewIdBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CActivatedEventArgsWithViewIdBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CLaunchActivatedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CThreadRefTaker { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Custom__AutoDeleteChore { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Custom__TaskCollectionImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct DesktopShellQuickActionsLogging { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Microsoft__WRL__Details__EventTargetArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileObservableVector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__SimpleVectorIterator_struct_Windows__Internal__QuickActions__IQuickAction____class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_XWinRT__IntVersionTag__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__SimpleVectorView_struct_Windows__Internal__QuickActions__IQuickAction____class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_XWinRT__IntVersionTag__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__Vector_struct_HSTRING_____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultVectorOptions_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__QuickActions__DataModelContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__QuickActions__QuickAppLauncher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__QuickActions__QuickSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__QuickActions__QuickUriLauncher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class__long___cdecl_WaitForCompletion_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User________struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User_________struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User__________enum_tagCOWAIT_FLAGS__void_______2___FTMEventDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IAgileObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IAsyncInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IGlobalInterfaceTable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMarshal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IRestrictedErrorInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsDatabaseForUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Activation__ISplashScreen { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Activation__ITileActivatedInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Activation__Private__IApplicationActivationResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__Detail__IVectorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IMap_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IObservableVector_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVector_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVector_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_class_Windows__Internal__PlatformExtensions__UserSelection__UserSelectionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_enum_Windows__System__LaunchUriStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IPropertyValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IPropertyValueStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__ITypedEventHandler_struct_IInspectable____struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IUriRuntimeClass { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__Details__GitInvokeHelper_struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction_____class_Windows__Internal__GitPtr__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__PlatformExtensions__UserSelection__IUserSelectionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__PlatformExtensions__UserSelection__IUserSelectionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__QuickActions__IControlCenterSettings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__QuickActions__IQuickActionsProvider { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__IUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__IUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__Internal__ISignInStateManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__Internal__IUserManagerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__UI__ViewManagement__IActivationViewSwitcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_DelegateTraits__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ComPtrRef_class_Microsoft_WRL_WeakRef__operator_class_Microsoft_WRL { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_DefaultModule_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_DelegateArgTraits_long____cdecl_SystemSettings_DataModel_ISettingsEnvironmentChangedHandler____struct_SystemSettings_DataModel_ISettingsEnvironmentDatabase____struct_HSTRING______DelegateInvokeHelper_struct_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler__class__lambda_72983ddf05b902877d71aefc2ac98ae8____1__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase____struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_EventTargetArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_IInspectable__class_Microsoft__WRL__FtmBase__struct_IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_CActivatedEventArgsWithPrelaunchAndViewIdBase___struct_IWeakReferenceSource__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs2__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Marshaling__Internal__IValueMarshalByPropertySet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__Collections__IIterator_struct_Windows__Internal__QuickActions__IQuickAction_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__QuickActions__IControlCenterSettings__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__QuickActions__IQuickAction__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__QuickActions__IQuickActionsProvider__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs2__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Marshaling__Internal__IValueMarshalByPropertySet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_CActivatedEventArgsWithViewIdBase___struct_Windows__ApplicationModel__Activation__IPrelaunchActivatedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__ApplicationModel__Activation__IActivatedEventArgsWithUser__struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IInitializeActivatedEventArgs___struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IActivatedEventArgsInternal___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__ApplicationModel__Activation__IActivatedEventArgs__struct_Windows__ApplicationModel__Activation__IActivatedEventArgsWithUser__struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IInitializeActivatedEventArgs___struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IActivatedEventArgsInternal___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__ApplicationModel__Activation__IApplicationViewActivatedEventArgs__struct_Windows__ApplicationModel__Activation__IViewSwitcherProvider__struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IMultiviewActivationProperties { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___0__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction_________struct_IWeakReferenceSource__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Collections__Internal__IVersionedVector___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___0__struct_Windows__Internal__Foundation__Contracts__IActivationFactoryContractRedirectorContext__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Collections__Internal__IVersionedVector___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_CLaunchActivatedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__Details__EventTargetArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__QuickActions__QuickActionsProvider__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__SimpleVectorIterator_struct_Windows__Internal__QuickActions__IQuickAction____class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_XWinRT__IntVersionTag__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__SimpleVectorView_struct_Windows__Internal__QuickActions__IQuickAction____class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_XWinRT__IntVersionTag__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__VectorChangedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__PlatformExtensions__Details__ActivationFactoryContractRedirectorContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__QuickActions__ControlCenterSettings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__QuickActions__ControlCenterSettingsFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__QuickActions__QuickActionsProvider { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__QuickActions__QuickAppLauncher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__QuickActions__QuickSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__QuickActions__QuickUriLauncher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class__long___cdecl_WaitForCompletion_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User________struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User_________struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User__________enum_tagCOWAIT_FLAGS__void_______2___FTMEventDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_struct_Microsoft__WRL__Details__DelegateArgTraits_long____cdecl_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler_____struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase____struct_HSTRING_______DelegateInvokeHelper_struct_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler__class__lambda_72983ddf05b902877d71aefc2ac98ae8____1__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase____struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_struct_Windows__Internal__Details__GitInvokeHelper_struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction_____class_Windows__Internal__GitPtr__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ModuleBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_13 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_3 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_CActivatedEventArgsWithPrelaunchAndViewIdBase__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs2__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Marshaling__Internal__IValueMarshalByPropertySet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IIterator_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IVectorChangedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IVectorView_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__QuickActions__IControlCenterSettings__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__QuickActions__IQuickAction__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__QuickActions__IQuickActionsProvider__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Internal__PlatformExtensions__UserSelection__UserSelectionResult_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User________class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Foundation__ITypedEventHandler_struct_IInspectable____struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Internal__IComPoolTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_3___1__1__0__struct_Microsoft__WRL__Implements_struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction_______struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Collections__Internal__IVersionedVector___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_3___1__1__0__struct_Windows__Internal__Foundation__Contracts__IActivationFactoryContractRedirectorContext__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_Selector_struct_Microsoft__WRL__Implements_struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction_______struct_Microsoft__WRL__Details__ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___0__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction_________struct_IWeakReferenceSource__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Collections__Internal__IVersionedVector___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_StaticStorage_class_Microsoft__WRL__Details__DefaultModule_1___0__int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_StrongReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_WeakReferenceImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_EventSource_struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Microsoft__WRL__InvokeModeOptions__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_EventSource_struct_Windows__Foundation__ITypedEventHandler_struct_IInspectable____struct_HSTRING______struct_Microsoft__WRL__InvokeModeOptions__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_EventSource_struct_Windows__Foundation__ITypedEventHandler_struct_Windows__Internal__QuickActions__IControlCenterSettings____struct_HSTRING______struct_Microsoft__WRL__InvokeModeOptions__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_struct_Windows__ApplicationModel__Activation__IActivatedEventArgs__struct_Windows__ApplicationModel__Activation__IActivatedEventArgsWithUser__struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IInitializeActivatedEventArgs___struct_Microsoft__WRL__CloakedIid_struct_Windows__ApplicationModel__Activation__IActivatedEventArgsInternal___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_InvokeTraits__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Module_1__class_Microsoft__WRL__Details__DefaultModule_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_CActivatedEventArgsWithPrelaunchAndViewIdBase__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs__struct_Windows__ApplicationModel__Activation__ILaunchActivatedEventArgs2__struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Marshaling__Internal__IValueMarshalByPropertySet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Internal__PlatformExtensions__UserSelection__UserSelectionResult_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__System__User________class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Foundation__ITypedEventHandler_struct_IInspectable____struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Internal__IComPoolTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_3___struct_Microsoft__WRL__Implements_struct_Windows__Foundation__Collections__IVector_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction_______struct_Microsoft__WRL__CloakedIid_struct_Windows__Foundation__Collections__Internal__IVersionedVector___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_3___struct_Windows__Internal__Foundation__Contracts__IActivationFactoryContractRedirectorContext__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IIterator_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IVectorChangedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IVectorView_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Internal__QuickActions__IQuickAction_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__QuickActions__IControlCenterSettings__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__QuickActions__IQuickAction__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__QuickActions__IQuickActionsProvider__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__QuickActions__QuickActionsProvider__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__QuickActions__QuickActionsProvider__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_WeakRef { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_Details_SyncLockCriticalSection { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HString { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HStringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_SRWLock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct QuickActionsTelemetry_InitializeQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct QuickActionsTelemetry_InvokingQuickSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_impl_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_impl_struct_Windows__Internal__QuickActions__IQuickAction____1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IObservableVector_impl_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IObservableVector_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IVectorView_impl_struct_Windows__Internal__QuickActions__IQuickAction____1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IVectorView_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IVector_impl_struct_Windows__Internal__QuickActions__IQuickAction____1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IVector_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_SimpleVectorIterator_struct_Windows__Internal__QuickActions__IQuickAction____class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_XWinRT__IntVersionTag__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_SimpleVectorView_struct_Windows__Internal__QuickActions__IQuickAction____class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_XWinRT__IntVersionTag__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_VectorChangedEventArgs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPool_CTaskWrapper_class__lambda_59558555a4d0fe468583914261d1d770 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_Details_Git { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_Details_GitInvokeHelper_struct_Windows__Foundation__Collections__VectorChangedEventHandler_struct_Windows__Internal__QuickActions__IQuickAction_____class_Windows__Internal__GitPtr__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtr { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrImpl_class_Windows__Internal__GitPtr { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_NativeString_class_Windows__Internal__CoTaskMemPolicy_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details_ActivationFactoryContractRedirectorContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details_ExtensionRegistrationCollectionRegistry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details_ExtensionRegistrationRegistry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details_PlatformExtensionsTelemetry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details_PlatformExtensionsTelemetry_TryActivateContractExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_PlatformExtensions_Details_PlatformExtensionsTelemetry_TryLookupExtensionPointImplementationAcid { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_CachedBool_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_CachedObject_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_CachedString_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_ControlCenterSettings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_ControlCenterSettingsFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_DataModelContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_LauncherUtilities { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_PropValueHelper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_PropertyCache_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickActionBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickActionDefinition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickActionProperty_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickActionsProvider { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickAppLauncher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickAppLauncherDefinition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickSettingDefinition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickUriLauncher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_QuickActions_QuickUriLauncherDefinition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_String { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_AutoValue_class_XWinRT__detail__GitStorageType_struct_Windows__Internal__QuickActions__IQuickAction___struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_IntVersionTag { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_InterfaceEquals { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_InterfaceLifetimeTraits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_SerializingLockPolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_detail_AtomicUpdates { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_detail_GitStorageType_struct_Windows_Internal_QuickActions_IQuickAction__ReferencedGitCookie { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_detail_GitStorageType_struct_Windows__Internal__QuickActions__IQuickAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_detail_InvalidationChecker_class_Windows__Foundation__Collections__Internal__Vector_struct_Windows__Internal__QuickActions__IQuickAction____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_Windows__Internal__QuickActions__IQuickAction_____struct_Windows__Foundation__Collections__Internal__VectorOptions_struct_Windows__Internal__QuickActions__IQuickAction____1__1__0_____struct_XWinRT__IntVersionTag { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_detail_ReentrancyGuard_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct exception { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0374aa0a5d1201b2358c6bce99369c58 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_052e919cc0e5399df76dff3972c0cac1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0d85958e25c6d23f40d8d7cc280bee0e { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_120d0c6b51dc644cb63ed5c7fc62f6c3 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1476d6d04f8e00a1babf0e5b5661a6a7 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_152aa9d2a3a0648fa2fa7fcef514b376 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1ad7ecfab602a777ecf020873216a663 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_437a961770157c1ed976e4c3da18a79c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5035b992506f4af81a770c5842624510 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_59558555a4d0fe468583914261d1d770 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5f1dd388c03885d19ee806198d2ac5ef { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_60a4d3a3166dbdcf7050c8f8674ece7f { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_70cbebbbc28db5875b6f3e62b7959b86 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_72983ddf05b902877d71aefc2ac98ae8 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_9e97c7f183c14d5d1fd709d10b418904 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_aa194dc0bf891154933407eb98fb868a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_bf0cab7e367b92d194d9a1ba31b40746 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_cca2ce36ac817e09a2904373698048de { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_ce564f7947f0b9d2442134a983f8f3c7 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_d51448ba32f8ef42e59400edd4566183 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_f481c443581c17c1cb49a9f6266cb47b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_fe718337787c493ce2d833414db25eba { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_fee8cea507d2413a58be13acfb66740a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct long___cdecl_WaitForCompletion_struct_Windows_Foundation_IAsyncOperationCompletedHandler_struct_Windows_Foundation_Collections_IVectorView_class_Windows_System_User________struct_Windows_Foundation_IAsyncOperation_struct_Windows_Foundation_Collections_IVectorView_class_Windows_System_User_________struct_Windows_Foundation_IAsyncOperation_struct_Windows_Foundation_Collections_IVectorView_class_Windows_System_User__________enum_tagCOWAIT_FLAGS__void______2__FTMEventDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_cancellation_token { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_cancellation_token_source { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details_CancellationTokenRegistration_TaskProc { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details__CancellationTokenCallback_class__lambda_9e97c7f183c14d5d1fd709d10b418904 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details__CancellationTokenRegistration { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details__CancellationTokenState { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details__Chore { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details__RefCounterBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details__Scheduler_Param { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details_critical_section_impl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details_event_impl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_details_windows_scheduler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_invalid_operation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_scoped_lock_class_pplx__details___Spin_lock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct pplx_scoped_lock_class_pplx__details__critical_section_impl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct type_info { _opaque: [u8; 0] }
+
